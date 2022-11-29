@@ -1,0 +1,9 @@
+public class Fitness {
+    public static decimal calculateIBM(decimal w, decimal h){
+        decimal weight=w;
+        decimal height=h;
+        decimal IBM=weight/(weight*height);
+        system.debug('The IBM is '+IBM+ 'when the weight is '+weight+'lbs and the height is '+height+'ft.');
+        return IBM;}
+    
+}
